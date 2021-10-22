@@ -1,0 +1,334 @@
+/* &display=swap&subset=cyrillic-ext */
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap");
+/* @import url("https://fonts.googleapis.com/css?family=Poppins:300,500,600&display=swap"); */
+
+@font-face {
+   font-family: "HelveticaNeue";
+   src: url('../fonts/HelveticaNeue-CondensedRegular.woff2') format('woff2'), url('HelveticaNeue-CondensedRegular.woff') format('woff');
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "HelveticaNeue";
+   src: url('../fonts/HelveticaNeueCyr-Black.woff2') format('woff2'), url('HelveticaNeueCyr-Black.woff') format('woff');
+   font-weight: 900;
+   font-style: normal;
+   font-display: swap;
+}
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+
+*, *::before, *::after {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   box-sizing: border-box;
+}
+
+li {
+   list-style: none;
+}
+
+a, a:visited {
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   font-weight: inherit;
+   font-size: inherit;
+}
+
+img {
+   vertical-align: top;
+}
+
+html, body {
+   height: 100%;
+}
+
+html {
+   font-size: 16px;
+   /* по умолчанию */
+}
+
+body {
+   line-height: 1;
+   font-family: "Roboto", "HelveticaNeue", sans-serif;
+   font-weight: 400;
+   color: #4B4B4B;
+   /* background: #F5F5F5; */
+}
+
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+}
+/* ------------------------------ */
+.container {
+   max-width: 1020px;
+   margin: 0 auto;
+}
+
+.doggi {
+   padding: 110px 0px 110px 0px;
+   font-family: "Roboto", sans-serif;
+   background: url(../img/Blob_2.png) right top no-repeat;
+}
+
+.title {
+   font-size: 42px;
+   color: rgb(56, 55, 55);
+   font-weight: 900;
+}
+
+.sub-text {
+   font-size: 12px;
+   font-weight: 700;
+   line-height: 24px;
+   letter-spacing: 2.5px;
+   text-transform: uppercase;
+   color: rgba(93, 98, 181, 1);
+   background: url(../img/Overlinemark.png) 0 0 no-repeat;
+   padding: 0 0 0 25px;
+   margin: 0 0 33px 0;
+   display: inline-block;
+}
+
+.sub-title {
+   font-weight: 900;
+   font-size: 36px;
+   line-height: 42px;
+   color: #000;
+   margin: 0 0 78px 0;
+}
+
+.skills {
+   text-align: justify;
+   margin: 0 0 24px 0;
+}
+
+.skills__item {
+   padding: 50px 44px;
+   background-color: #fff;
+   border-radius: 20px;
+   max-width: 324px;
+   display: inline-block;
+   text-align: center;
+}
+
+.skills__item:not(:last-child) {
+   margin: 0px 20px 0px 0px;
+}
+
+.skills__item:hover {
+   box-shadow: 3px 16px 24px 0px rgba(38, 38, 38, 1);
+}
+
+.skills__iqon {
+   width: 63px;
+   height: 63px;
+   margin-bottom: 33px;
+}
+
+.skills__title {
+   font-size: 19px;
+   font-weight: 900;
+   line-height: 26px;
+   text-align: center;
+   color: rgba(242, 114, 111, 1);
+   margin-bottom: 20px;
+}
+
+.skills__text {
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+   letter-spacing: 0.15px;
+   color: rgba(75, 75, 75, 1);
+}
+
+.skills-wrappdown__item {
+   padding: 50px 44px;
+   background-color: #fff;
+   border-radius: 20px;
+   max-width: 324px;
+   display: inline-block;
+   text-align: center;
+}
+
+.skills-wrappdown__item:not(:last-child) {
+   margin: 0px 20px 0px 0px;
+}
+
+.skills-wrappdown__item:hover {
+   box-shadow: 3px 16px 24px 0px rgba(38, 38, 38, 1);
+}
+
+.skills-wrappdown__iqon {
+   width: 63px;
+   height: 63px;
+   margin-bottom: 33px;
+}
+
+.skills-wrappdown__title {
+   font-size: 19px;
+   font-weight: 900;
+   line-height: 26px;
+   text-align: center;
+   color: rgba(242, 114, 111, 1);
+   margin-bottom: 20px;
+}
+
+.skills-wrappdown__text {
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+   letter-spacing: 0.15px;
+   color: rgba(75, 75, 75, 1);
+}
+
+.skills-wrappdown {
+   margin: 0 0 73px 0;
+}
+
+.button {
+   display: inline-block;
+   font-size: 12px;
+   font-weight: 700;
+   line-height: 24px;
+   letter-spacing: 0.15px;
+   text-align: center;
+   color: #fff;
+   background-color: rgba(242, 114, 111, 1);
+   padding: 9px 15px;
+   border-radius: 10px;
+   border: 1px solid rgba(242, 114, 111, 0);
+}
+
+.button:hover {
+   border: 1px solid rgba(242, 114, 111, 1);
+   color: rgba(242, 114, 111, 1);
+   background: #fff;
+}
+
+.button-wrapp {
+   text-align: center;
+}
+
+/* --------------------------- */
+
+.omnis {
+   padding: 50px 0 100px;
+}
+
+.omnis-wrapp__item {
+   display: inline-block;
+   margin: 0px 0px 0px 0px;
+}
+
+.omnis-wrapp__item cameras {
+   margin: 0px 24px 0px 0px;
+}
+
+.omnis-wrapp__iqon_love, .omnis-wrapp__iqon_vet, .omnis-wrapp__iqon_dog {
+   display: inline-block;
+}
+
+.omnis-wrapp__description {
+   display: inline-block;
+   vertical-align: top;
+   margin-left: 23px;
+}
+
+.omnis-wrapp__title {
+   font-weight: 700;
+   font-size: 19px;
+   line-height: 26px;
+   color: #F2726F;
+   margin-bottom: 20px;
+}
+
+.omnis-wrapp__text {
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+   letter-spacing: 0.15px;
+   max-width: 235px;
+}
+
+/* --------------------------- */
+
+.lying {
+   background: url(../img/Blob\ 2.png) 73% top no-repeat #29c3be;
+   padding: 105px 0;
+}
+
+.sub {
+   display: inline-block;
+   margin: 0 85px 0 0;
+   color: #fff;
+}
+
+.wrapp-img {
+   display: inline-block;
+}
+
+.sub-text_white {
+   color: #fff;
+   background: url(../img/Markwhite.png) no-repeat;
+}
+
+.sub-title_white {
+   max-width: 411px;
+   color: #fff;
+}
+
+.wrapp-img__foto {
+   display: inline-block;
+   margin: -280px 0 85px 0;
+   border-radius: 40px;
+}
+
+.wrapper-diget__item {
+   display: inline-block;
+   max-width: 237px;
+   margin: 0 28px 0 0;
+}
+
+.wrapper-diget__item:last-child {
+   margin: 0;
+}
+
+.wrapper-diget__content {
+   display: inline-block;
+   margin-left: 12px;
+}
+
+.wrapper-diget__iqon {
+   width: 76px;
+   height: 76px;
+   vertical-align: top;
+}
+
+.wrapper-diget__diget {
+   font-weight: 900;
+   font-size: 36px;
+   line-height: 42px;
+   color: #fff;
+   margin: 0 0 3px 0;
+}
+
+.wrapper-diget__text {
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: 0.15px;
+   color: #5D62B5;
+}
